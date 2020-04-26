@@ -20,7 +20,7 @@ php (5系,7系)
 
 <a id="mokuji201"></a>
 ## 想定しているシステム構成
-![dialog](systemdialog.png)
+![diagram](systemdialog.png)
 
 <a id="mokuji301"></a>
 ## 事前準備
