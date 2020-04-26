@@ -131,5 +131,8 @@ $logLevel → ログレベル
 | 結果の書きこみに失敗しました。 [ファイル名]               | LOGLEVELERROR |  | 
 | Curl error: ' . curl_error($ch)                       | LOGLEVELERROR |  | 
 | API get failed. maybe Paramater.                      | LOGLEVELERROR |  | 
-    
-
+| CSVファイル中に欠損レコードです。 行番号: [行番号]        | LOGLEVELWARNING |  | 
+| 該当する緯度経度が見つかりませんでした。 [住所]           | LOGLEVELWARNING |  | 
+| API Cacheファイルの読み込みに失敗しました。 [ファイル名]  | LOGLEVELWARNING |  | 
+| API Cacheファイル中に欠損レコードです。 行番号:  [行番号] | LOGLEVELWARNING |  | 
+      
