@@ -52,7 +52,7 @@ getAPICache() ;
 // CSVファイルの読み込み
 $inpfile = fopen($inpFilename, "r");
 if ($inpfile == null) {
-  logPrint("CSVファイルの読み込みに失敗しました。 [".INPFILE."]",LOGLEVELERROR) ;
+  logPrint("CSVファイルの読み込みに失敗しました。 [". $inpFilename ."]",LOGLEVELERROR) ;
   exit(-1) ;
 }
 
