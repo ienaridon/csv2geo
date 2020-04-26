@@ -54,7 +54,7 @@ Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
 正常終了した場合はshellに0を、異常終了の場合は-1を返します。    
 
 ---
-<a id="mokuji202"></a>
+<a id="mokuji203"></a>
 #### getCoordinates($addressString)
 ##### 機能
 住所から緯度経度を得ます。  
@@ -69,7 +69,7 @@ $addressString → 緯度経度の欲しい住所
 ```
 
 ---
-<a id="mokuji203"></a>
+<a id="mokuji204"></a>
 #### getAPICache()
 ##### 機能
 APIキャッシュファイルを連想配列として読み込みます。
@@ -79,7 +79,7 @@ APIキャッシュファイルを連想配列として読み込みます。
 なし  
 
 ---
-<a id="mokuji204"></a>
+<a id="mokuji205"></a>
 #### putAPICache($key, $value)
 ##### 機能
 APIの結果をキャッシュファイルに追加します。
@@ -91,7 +91,7 @@ $value → 緯度経度文字列
 なし  
 
 ---
-<a id="mokuji205"></a>
+<a id="mokuji206"></a>
 #### logPrint($logMessage, $logLevel)
 ##### 機能
 ログを1行書き出します。
@@ -102,7 +102,7 @@ $logLevel → ログレベル
 ##### 戻り値  
 なし  
 
-<a id="mokuji206"></a>
+<a id="mokuji207"></a>
 #### ログレベルと使用方法
 | 定数 | 内容 |
 |:---|:---|
