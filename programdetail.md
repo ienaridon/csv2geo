@@ -34,7 +34,7 @@ Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
 | argv[1] | 入力ファイル名  |
 | argv[2] | 出力ファイル名  |
 ##### 戻り値  
-正常終了した場合はshellに0を、異常終了の場合は-1を返します。  
+正常終了した場合はshellに0を、異常終了の場合は-1を返します。    
 ---
 #### function getCoordinates($addressString)
 ##### 機能
@@ -48,14 +48,16 @@ $addressString → 緯度経度の欲しい住所
 ```
 "140.87131347,38.26469260"
 ```
+
 ---
 #### function getAPICache()
 ##### 機能
 APIキャッシュファイルを連想配列として読み込みます。
 ##### 引数
 なし
-##### 戻り値
-なし
+##### 戻り値  
+なし  
+
 ---
 #### function putAPICache($key, $value)
 ##### 機能
@@ -64,8 +66,9 @@ APIの結果をキャッシュファイルに追加します。
 なし
 ##### 戻り値  
 なし  
+
 ---
-function logPrint($logMessage, $logLevel)
+#### function logPrint($logMessage, $logLevel)
 ログの書き出し
 引数:
 $logMessage, $logLevel
