@@ -81,6 +81,18 @@ $logLevel → ログレベル
 ##### 戻り値  
 なし  
 
+#### ログレベルと使用方法
+| 定数 | 内容 |
+|:---|:---|
+| NOLOG            | エラー出力しない |
+| LOGLEVELERROR    | 致命的なエラー |
+| LOGLEVELWARNING  | 継続可能なエラー |
+| LOGLEVELINFO     | 情報表示 |
+| LOGLEVELDEBUG    | 開発者用表示 |
+
+実際のログファイルへの書き込みは、 $displayLogLevel に、ログレベルを指定する事で制御します。
+
+--- 
 
 ### シーケンス
 
