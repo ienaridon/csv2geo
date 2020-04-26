@@ -7,6 +7,7 @@
 [事前準備](#mokuji301)  
 [セットアップ方法](#mokuji401)  
 [ログファイルの仕様について](#mokuji501)  
+[プログラムの詳細仕様について](#mokuji601)  
 [ライセンスについて](#mokuji002)  
 
 <a id="mokuji001"></a>
@@ -89,6 +90,11 @@ prompt% php geoget.php 入力ファイル 出力ファイル
 | Debug   | 開発者用の詳細なログが記録されます。                  |
 
 監視する際は、Error / Warning の検知を行ってください。
+
+<a id="mokuji601"></a>
+#### プログラムの詳細仕様について
+以下のドキュメントを参照してください。  
+https://github.com/ienaridon/csv2geo/blob/master/programdetail.md
 
 <a id="mokuji002"></a>
 ## ライセンスについて
