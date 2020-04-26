@@ -35,6 +35,7 @@ Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
 | argv[2] | 出力ファイル名  |
 ##### 戻り値  
 正常終了した場合はshellに0を、異常終了の場合は-1を返します。    
+
 ---
 #### function getCoordinates($addressString)
 ##### 機能
