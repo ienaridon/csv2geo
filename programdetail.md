@@ -4,12 +4,12 @@
 [PHPのバージョンと外部ライブラリ](#mokuji102)  
 [関連ファイル](#mokuji103)  
 [関数概要](#mokuji201)  
-[メイン関数](#mokuji202)  
-[getCoordinates($addressString)](#mokuji203)  
-[getAPICache()](#mokuji204)  
-[putAPICache($key, $value)](#mokuji205)  
-[logPrint($logMessage, $logLevel)](#mokuji206)  
-[ログレベルと使用方法](#mokuji207)  
+　[メイン関数](#mokuji202)  
+　[getCoordinates($addressString)](#mokuji203)  
+　[getAPICache()](#mokuji204)  
+　[putAPICache($key, $value)](#mokuji205)  
+　[logPrint($logMessage, $logLevel)](#mokuji206)  
+　[ログレベルと使用方法](#mokuji207)  
 [シーケンス](#mokuji301)  
 
 <a id="mokuji101"></a>
