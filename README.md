@@ -69,10 +69,9 @@ prompt% php geoget.php 入力ファイル 出力ファイル
 <a id="mokuji501"></a>
 ## ログファイルの仕様について
 このプログラムの動作を監視するにはログファイルで確認を行います。  
-
-ログ形式
-日付 ログレベル ログ内容
-例:
+#### ログ形式
+日付 ログレベル プログラム名 ログ内容 が記録されます。  
+例:  
 ```
 2020-04-24 23:40:54	Info	geoget.php	Batch Start
 2020-04-24 23:40:54	Warning	geoget.php	API Cacheファイルの読み込みに失敗しました。 [geoget-cache.txt]
@@ -81,12 +80,14 @@ prompt% php geoget.php 入力ファイル 出力ファイル
 2020-04-24 23:41:00	Info	geoget.php	Batch End
 2020-04-24 23:41:09	Info	geoget.php	Batch Start
 2020-04-24 23:41:09	Info	geoget.php	Batch End
+2020-04-26 16:40:04     Info    geoget.php      Batch Start
+2020-04-26 16:40:04     Error   geoget.php      CSVファイルの読み込みに失敗しました。 [INPFILE]
 ```
-ログレベル
-Error  
-Warning  
-Info  
-Debug  
+#### ログレベルについて
+|Error   |バッチの実行ができない問題が生ています。
+|Warning |バッチは実行できますが、何かしらの問題が生じています。
+|Info    |プログラムの実行状況などが記録されます。
+|Debug   |開発者用の詳細なログが記録されます。
 
 
 
