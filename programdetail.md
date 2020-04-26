@@ -124,15 +124,15 @@ $logLevel → ログレベル
 ### エラーメッセージ一覧
 | エラー表示 | エラーレベル | エラー詳細 |
 |:---|:---|:---|
-| 引数エラー Usage: $argv[0] 入力ファイル名 出力ファイル名 | LOGLEVELERROR |  | 
-| 入力ファイル名と出力ファイル名は別でなければなりません。   | LOGLEVELERROR |  | 
-| CSVファイルの読み込みに失敗しました。 [ファイル名]        | LOGLEVELERROR |  | 
-| 結果ファイルの作成に失敗しました。 [ファイル名]           | LOGLEVELERROR |  | 
-| 結果の書きこみに失敗しました。 [ファイル名]               | LOGLEVELERROR |  | 
-| Curl error: ' . curl_error($ch)                       | LOGLEVELERROR |  | 
-| API get failed. maybe Paramater.                      | LOGLEVELERROR |  | 
-| CSVファイル中に欠損レコードです。 行番号: [行番号]        | LOGLEVELWARNING |  | 
-| 該当する緯度経度が見つかりませんでした。 [住所]           | LOGLEVELWARNING |  | 
-| API Cacheファイルの読み込みに失敗しました。 [ファイル名]  | LOGLEVELWARNING |  | 
-| API Cacheファイル中に欠損レコードです。 行番号:  [行番号] | LOGLEVELWARNING |  | 
+| 引数エラー Usage: $argv[0] 入力ファイル名 出力ファイル名 | LOGLEVELERROR | 起動時の引数が不足している。 | 
+| 入力ファイル名と出力ファイル名は別でなければなりません。   | LOGLEVELERROR | 同じファイル名が入力ファイルと出力ファイルで使われている。 | 
+| CSVファイルの読み込みに失敗しました。 [ファイル名]        | LOGLEVELERROR | 入力ファイルが読み込めなかった。　おそらく存在しないか権限が無い。 | 
+| 結果ファイルの作成に失敗しました。 [ファイル名]           | LOGLEVELERROR | 結果ファイルを作成できなかった。　おそらく権限の無いディレクトリ。 | 
+| 結果の書きこみに失敗しました。 [ファイル名]               | LOGLEVELERROR | 結果の書き込みに失敗した。 | 
+| Curl error: ' . curl_error($ch)                       | LOGLEVELERROR | curlが何かしらのエラーを返してきた。 | 
+| API get failed. maybe Paramater.                      | LOGLEVELERROR | APIが何かしらのエラーを返してきた。おそらくパラメータが不正。 | 
+| CSVファイル中に欠損レコードです。 行番号: [行番号]        | LOGLEVELWARNING | 入力ファイルの中に欠損レコードが見つかった。 | 
+| 該当する緯度経度が見つかりませんでした。 [住所]           | LOGLEVELWARNING | APIを叩いたが住所が見つからず緯度経度が返ってこなかった。 | 
+| API Cacheファイルの読み込みに失敗しました。 [ファイル名]  | LOGLEVELWARNING | キャッシュファイルが読み込めなかった。 | 
+| API Cacheファイル中に欠損レコードです。 行番号:  [行番号] | LOGLEVELWARNING | キャッシュファイルの中に欠損レコードが見つかった。 | 
       
