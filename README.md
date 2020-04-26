@@ -22,7 +22,7 @@ php (5系,7系)
 
 ## 事前準備
 このプログラムは住所からの緯度経度変換にYahoo! Japan提供のYOLP APIを利用しています。  
-プログラムからこのAPIを使用するためには、事前に[YJDN][https://developer.yahoo.co.jp/]に登録してAPPID(CLIENTID)を取得しておく必要がああります。  
+プログラムからこのAPIを使用するためには、事前に[YJDN|https://developer.yahoo.co.jp/]に登録してAPPID(CLIENTID)を取得しておく必要がああります。  
 
 ## セットアップ方法
 1.PHP動作環境の用意  
