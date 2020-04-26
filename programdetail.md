@@ -10,7 +10,7 @@
 　[putAPICache($key, $value)](#mokuji205)  
 　[logPrint($logMessage, $logLevel)](#mokuji206)  
 　[ログレベルと使用方法](#mokuji207)  
-[シーケンス](#mokuji301)  
+[アクティビティ図](#mokuji301)  
 
 <a id="mokuji101"></a>
 ### 外部API
@@ -116,5 +116,6 @@ $logLevel → ログレベル
 
 --- 
 <a id="mokuji301"></a>
-### シーケンス
+### アクティビティ図
+![activity](activity.png)
 
