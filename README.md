@@ -73,6 +73,15 @@ prompt% php geoget.php 入力ファイル 出力ファイル
 ログ形式
 日付 ログレベル ログ内容
 例:
+```
+2020-04-24 23:40:54	Info	geoget.php	Batch Start
+2020-04-24 23:40:54	Warning	geoget.php	API Cacheファイルの読み込みに失敗しました。 [geoget-cache.txt]
+2020-04-24 23:40:58	Warning	geoget.php	該当する緯度経度が見つかりませんでした。 [仙台市のどこか]
+2020-04-24 23:40:58	Warning	geoget.php	CSVファイル中に欠損レコードです。 行番号: 4 [欠損レコード]
+2020-04-24 23:41:00	Info	geoget.php	Batch End
+2020-04-24 23:41:09	Info	geoget.php	Batch Start
+2020-04-24 23:41:09	Info	geoget.php	Batch End
+```
 ログレベル
 Error  
 Warning  
