@@ -11,6 +11,7 @@
 　[logPrint($logMessage, $logLevel)](#mokuji206)  
 　[ログレベルと使用方法](#mokuji207)  
 [アクティビティ図](#mokuji301)  
+[エラーメッセージ一覧](#mokuji401)  
 
 <a id="mokuji101"></a>
 ### 外部API
@@ -118,4 +119,17 @@ $logLevel → ログレベル
 <a id="mokuji301"></a>
 ### アクティビティ図
 ![activity](activity.png)
+
+<a id="mokuji401"></a>
+### エラーメッセージ一覧
+| エラー表示 | エラーレベル | エラー詳細 |
+|:---|:---|:---|
+| 引数エラー Usage: $argv[0] 入力ファイル名 出力ファイル名 | LOGLEVELERROR |  | 
+| 入力ファイル名と出力ファイル名は別でなければなりません。   | LOGLEVELERROR |  | 
+| CSVファイルの読み込みに失敗しました。 [ファイル名]        | LOGLEVELERROR |  | 
+| 結果ファイルの作成に失敗しました。 [ファイル名]           | LOGLEVELERROR |  | 
+| 結果の書きこみに失敗しました。 [ファイル名]               | LOGLEVELERROR |  | 
+| Curl error: ' . curl_error($ch)                       | LOGLEVELERROR |  | 
+| API get failed. maybe Paramater.                      | LOGLEVELERROR |  | 
+    
 
