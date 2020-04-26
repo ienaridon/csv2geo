@@ -1,3 +1,3 @@
 # csv2geo
 
-!systemdialog.png
+!(systemdialog.png)
