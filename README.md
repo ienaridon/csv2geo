@@ -77,8 +77,8 @@ prompt% php geoget.php 入力ファイル 出力ファイル
 2020-04-24 23:41:00	Info	geoget.php	Batch End
 2020-04-24 23:41:09	Info	geoget.php	Batch Start
 2020-04-24 23:41:09	Info	geoget.php	Batch End
-2020-04-26 16:40:04     Info    geoget.php      Batch Start
-2020-04-26 16:40:04     Error   geoget.php      CSVファイルの読み込みに失敗しました。 [INPFILE]
+2020-04-26 22:09:29     Info    geoget.php      Batch Start
+2020-04-26 22:09:29     Error   geoget.php      CSVファイルの読み込みに失敗しました。 [sample2.csv]
 ```
 #### ログレベルについて
 
